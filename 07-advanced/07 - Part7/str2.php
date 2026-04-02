@@ -11,8 +11,8 @@
     require_once __DIR__ . '/inc/functions.inc.php';
     $text = "PHP,short for \"Hypertext Preprocessor,\" is a server-side scripting language first introduced in 1994 by Rasmus Lerdorf. Distributed under a permissive license, PHP is open-source, allowing both personal and commercial use at no cost. It's a cross-platform language, compatible with various server operating systems like Linux, Windows, and macOS, making it highly versatile. The language boasts a large and supportive community, offering an extensive range of libraries, frameworks, and online resources, which has made it a staple for developing dynamic websites and web applications. One of its significant advantages is its seamless integration with relational databases such as MySQL.";
     var_dump(strlen($text)); //get the length of $text. Emoji will be counted more than 1 character.
-    var_dump(str_starts_with($text, "php")); //check if $text starts with "PHP". Need to satisfy upper letter.
-    var_dump(str_ends_with($text, "PHP")); //check if $text ends with "MySQL."
+    var_dump(str_starts_with($text, "PHP")); //check if $text starts with "PHP". Need to satisfy upper letter.
+    var_dump(str_ends_with($text, "PHP")); //check if $text ends with "PHP."
     var_dump(strtolower($text));
     var_dump(strtoupper($text));
     var_dump(ucfirst('hello')); //uppercase the first letter of string
